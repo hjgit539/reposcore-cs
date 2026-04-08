@@ -1,4 +1,5 @@
 {
+  "name": "reposcore-cs Codespaces VSCode Extensions",
   "customizations": {
     "vscode": {
       "extensions": [
