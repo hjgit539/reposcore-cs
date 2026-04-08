@@ -1,11 +1,11 @@
 # reposcore-cs
 A CLI for scoring student participation in an open-source class repo, implemented in C# using GraphQL
 
-# Synopsis
+## Overview
 
 `reposcore-cs`는 오픈소스 수업에서 학생들의 GitHub 기여도(PR, 이슈)를 자동으로 분석하고 점수를 산출하는 CLI 도구입니다. GitHub GraphQL API를 활용하여 데이터를 수집하고, 기여 내역에 따라 점수를 계산합니다.
 
-# Quick Start
+## Quick Start
 
 ### 1. 사전 준비
 
@@ -13,17 +13,20 @@ A CLI for scoring student participation in an open-source class repo, implemente
   - 자세한 설치 방법은 [docs/dotnet-guide.md](docs/dotnet-guide.md) 참고
 
 ### 2. 저장소 클론
+
 ```bash
 git clone https://github.com/oss2026hnu/reposcore-cs.git
 cd reposcore-cs
 ```
 
 ### 3. 빌드
+
 ```bash
 dotnet build
 ```
 
 ### 4. 실행
+
 ```bash
 dotnet run
 ```
