@@ -76,7 +76,7 @@ namespace RepoScore.Services
         public async Task ShowRecentClaimsAsync()
         {
             var query = new Query()
-                .Repository(_owner, _repo)
+                .Repository(_repo, _owner)
                 .Issues(first: 20,
                         states: new[] { IssueState.Open },
                         orderBy: new IssueOrder
